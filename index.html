@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OMDb template</title>
+  </head>
+
+  <h1>Movie</h1>
+
+  <input type="text" placeholder="Search" id="input-1" />
+
+  <div id="container">
+    <div class="box">
+      <label for="movie-type">Movie Type:</label>
+      <select id="movie-type">
+        <option value="game">game</option>
+        <option value="series">Series</option>
+        <option value="movie">movie</option>
+      </select>
+    </div>
+
+    <div class="box">
+      <label for="movie-year">Movie Year:</label>
+      <select id="movieYear">
+  
+      </select>
+    </div>
+  </div>
+
+  <div id="content"><ul id="movielist"></ul></div>
+  <body>
+    <script src="js/main.js"></script>
+  </body>
+</html>
